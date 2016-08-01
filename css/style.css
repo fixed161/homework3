@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f9f9f9;
+}
+
+.main {
+    width: 1060px;
+    height: 100%;
+    margin: 0 auto;
+    border-right: 1px solid #dbdbdb;
+    border-left: 1px solid #dbdbdb;
+    background: #fff;
+}
+
+.header img {
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+/*Menu*/
+
+.menu {
+    width: 1000px;
+    height: 40px;
+    margin: 37px auto 0;
+    background: linear-gradient(to bottom, #5e5e5e, #454444);
+    font: 18px serif;
+  }
+
+ul {
+    list-style-type: none;
+  }
+
+.menu ul li {
+    display: inline-block;
+    width: 60px;
+    height: 40px;
+    padding-right: 96px;
+}
+
+.menu ul li:first-child {
+    padding-left: 21px;
+}
+
+.menu li a {
+    padding: 0 30px;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu ul li:hover {
+    border-right: 1px solid #838383;
+    border-left: 1px solid #838383;
+    background: linear-gradient(to bottom, #4a4a4a, #2f2f2f);
+}
+
+/*Sidebar*/
+
+.sidebar {
+    width: 240px;
+    margin-top: 40px;
+    margin-left: 30px;
+    float: left;
+    border: 1px solid #c8c8c8;
+}
+
+.sidebar ul li {
+    width: 240px;
+    height: 38px;
+    border-top: 1px solid #c8c8c8;
+    line-height: 38px;
+}
+
+.sidebar ul li:hover {
+    background: #f9f9f9;
+}
+
+.sidebar ul li:first-child {
+    border-top: 0;
+}
+
+.sidebar li a {
+    padding-left: 23px;
+    color: #656363;
+    text-decoration: none;
+}
+
+/*Content*/
+
+.content {
+    margin-top: 40px;
+    margin-right: 30px;
+    float: right;
+}
+
+p {
+    margin-top: 40px;
+    padding-bottom: 30px;
+    color: #585858;
+    line-height: 1,5;
+}
+
+/*Footer*/
+
+.footer {
+    width: 1000px;
+    height: 40px;
+    margin: 0 auto 60px;
+    clear: both;
+    background: #e1e1e1;
+  }
+
+.footer ul li {
+    display: inline-block;
+    padding-right: 96px;
+}
+
+.footer ul li:first-child {
+    padding-left: 21px;
+}
+
+.footer ul li:last-child {
+    padding-right: 26px;
+    float: right;
+    line-height: 40px;
+}
+
+.footer li a {
+    color: #2c2c2c;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.footer li a:hover {
+    text-decoration: underline;
+}
